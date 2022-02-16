@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "vite dev"
+    "dev": "vite dev --config ./scripts/vite.config.ts"
   },
   "dependencies": {
     "vue": "^3.2.31",

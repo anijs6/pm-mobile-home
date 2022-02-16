@@ -12,7 +12,8 @@
   "devDependencies": {
     "@zg/eslint-config-common": "*",
     "eslint": "^8.7.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "turbo": "^1.1.2"
   },
   "pnpm": {
     "overrides": {
