@@ -1,0 +1,37 @@
+{
+  "name": "@zg/eslint-config-common",
+  "version": "1.0.0",
+  "description": "eslint公共配置",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "eslint-config-common.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://npm.zhaogangren.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.6.1",
+    "eslint-plugin-jsonc": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unicorn": "^38.0.1",
+    "eslint-plugin-yml": "^0.11.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  }
+}

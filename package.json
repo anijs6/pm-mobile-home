@@ -1,0 +1,22 @@
+{
+  "name": "pm-mobile-home",
+  "description": "",
+  "workspaces": [
+    "packages/**",
+    "apps/**"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@zg/eslint-config-common": "*",
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@zg/eslint-config-common": "workspace:*"
+    }
+  }
+}
