@@ -1,7 +1,13 @@
 <script setup lang="ts">
-const a = 6
+import { useRouterUniqueId } from '@/hooks/useRouterUniqueId'
+
+const routerUniqueId = useRouterUniqueId()
 </script>
 
 <template>
-  <div>{{ a }}</div>
+  <router-view v-slot="{ Component }">
+    <keep-alive :key="routerUniqueId">
+      <component :is="Component" />
+    </keep-alive>
+  </router-view>
 </template>

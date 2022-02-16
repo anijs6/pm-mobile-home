@@ -1,0 +1,17 @@
+{
+  "name": "@zg/mrm-preset-sync",
+  "version": "1.0.0",
+  "description": "用来将变量同步到tsconfig、eslint等需要的工程配置中",
+  "keywords": [
+    "mrm",
+    "mrm-preset",
+    "sync-alias"
+  ],
+  "main": "config.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mrm-core": "^6.1.7"
+  }
+}
