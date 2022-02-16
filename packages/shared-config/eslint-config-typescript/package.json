@@ -1,0 +1,30 @@
+{
+  "name": "@zg/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "eslint typescript配置",
+  "main": "eslint-config-typescript.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://npm.zhaogangren.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "prettier": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "@zg/eslint-config-common": "workspace:*",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
