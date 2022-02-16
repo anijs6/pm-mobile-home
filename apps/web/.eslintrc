@@ -1,4 +1,10 @@
 {
   "root": true,
-  "extends": "@zg/vue"
+  "extends": "@zg/vue",
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/vite.config.ts", "**/vite.config.*.ts"] }
+    ]
+  }
 }

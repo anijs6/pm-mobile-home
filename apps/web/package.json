@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@vitejs/plugin-vue": "^2.2.0",
     "@zg/eslint-config-vue": "*",
     "vite": "^2.8.3"
   },

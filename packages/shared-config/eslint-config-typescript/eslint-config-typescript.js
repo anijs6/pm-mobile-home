@@ -2,7 +2,7 @@ const commonConfig = require('@zg/eslint-config-common')
 
 module.exports = {
   extends: ['@zg/common', 'plugin:@typescript-eslint/recommended', 'prettier'],
-  plugin: ['prettier'],
+  plugins: ['prettier'],
   overrides: [
     ...commonConfig.overrides,
     {
