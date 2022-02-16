@@ -11,14 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": "^8",
+    "eslint": ">=7.4",
     "prettier": "*",
     "typescript": "*"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
-    "@zg/eslint-config-common": "workspace:*",
+    "@zg/eslint-config-common": "*",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
@@ -26,5 +26,10 @@
     "eslint": "^8.7.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@zg/eslint-config-common": "workspace:*"
+    }
   }
 }

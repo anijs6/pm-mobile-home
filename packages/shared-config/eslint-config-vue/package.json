@@ -9,5 +9,24 @@
   "main": "eslint-config-vue.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@zg/eslint-config-typescript": "*",
+    "eslint-plugin-vue": "^8.4.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@zg/eslint-config-typescript": "workspace:*"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
   }
 }

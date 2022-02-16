@@ -1,5 +1,8 @@
+const typescriptConfig = require('@zg/eslint-config-typescript')
+
 module.exports = {
   overrides: [
+    ...typescriptConfig.overrides,
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
@@ -13,7 +16,7 @@ module.exports = {
       }
     }
   ],
-  extends: ['plugin:vue/vue3-recommended', '@antfu/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@zg/typescript'],
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
