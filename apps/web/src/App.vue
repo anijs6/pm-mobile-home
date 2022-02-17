@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRouterUniqueId } from '@/hooks/useRouterUniqueId'
+import { useRouterUniqueId } from './hooks/useRouterUniqueId'
 
 const routerUniqueId = useRouterUniqueId()
 </script>
