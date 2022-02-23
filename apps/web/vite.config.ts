@@ -4,14 +4,15 @@ import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Markdown from 'vite-plugin-md'
 import Prism from 'markdown-it-prism'
+import Tailwind from 'vite-plugin-tailwind'
 import LinkAttributes from 'markdown-it-link-attributes'
 
-const rootPath = path.resolve(__dirname, '..')
+const rootPath = path.resolve(__dirname)
 export default defineConfig({
   root: rootPath,
   resolve: {
     alias: {
-      '@/': `${path.resolve(__dirname, '../src')}/`
+      '@/': `${path.join(rootPath, 'src')}/`
     }
   },
   plugins: [

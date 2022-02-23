@@ -4,22 +4,27 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "vite dev --config ./scripts/vite.config.ts"
+    "dev": "vite dev --config ./vite.config.ts"
   },
   "dependencies": {
     "vue": "^3.2.31",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/node": "^17.0.18",
     "@vitejs/plugin-vue": "^2.2.0",
     "@zg/eslint-config-vue": "*",
+    "autoprefixer": "^10.4.2",
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-it-prism": "^2.2.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
     "vite": "^2.8.3",
     "vite-plugin-md": "^0.11.8",
-    "vite-plugin-pages": "^0.20.2"
+    "vite-plugin-pages": "^0.20.2",
+    "vite-plugin-tailwind": "^0.0.4"
   },
   "pnpm": {
     "overrides": {

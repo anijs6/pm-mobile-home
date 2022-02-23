@@ -1,12 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from '../views/index.vue'
+import routes from 'virtual:generated-pages'
 
 export const router = createRouter({
   history: createWebHistory(),
-  routes: [
-    {
-      path: '/',
-      component: Index
-    }
-  ]
+  routes
+})
+
+router.beforeEach(() => {
+  console.log('before hook')
+})
+
+router.afterEach(() => {
+  console.log('after hook')
 })

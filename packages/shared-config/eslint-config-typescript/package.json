@@ -20,6 +20,7 @@
     "@typescript-eslint/parser": "^5.10.0",
     "@zg/eslint-config-common": "*",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
   "devDependencies": {
